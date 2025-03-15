@@ -1,54 +1,92 @@
-# React + TypeScript + Vite
+## English
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Ultimate Tic Tac Toe
 
-Currently, two official plugins are available:
+This project is a modern implementation of the classic Tic Tac Toe game using React, TypeScript, and Vite. The game features a dynamic and interactive user interface with animations for player moves.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+- **React**: Utilizes React for building the user interface.
+- **TypeScript**: Ensures type safety and better development experience.
+- **Vite**: Provides fast build times and a smooth development environment.
+- **Animations**: Includes animations for player moves using CSS.
 
-## Expanding the ESLint configuration
+### Getting Started
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Scripts
+- `dev`: Starts the development server.
+- `build`: Builds the project for production.
+- `lint`: Runs ESLint to check for code quality issues.
+- `preview`: Previews the production build.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Project Structure
+- **src**: Contains the source code.
+  - `components/`: Contains React components.
+  - `styles/`: Contains CSS and SCSS files for styling.
+- **public**: Contains static assets.
+- **index.html**: The main HTML file.
+- **vite.config.ts**: Vite configuration file.
+- **tsconfig.json**: TypeScript configuration file.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Português
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+# Ultimate Tic Tac Toe
+
+Este projeto é uma implementação moderna do clássico jogo da velha usando React, TypeScript e Vite. O jogo apresenta uma interface de usuário dinâmica e interativa com animações para os movimentos dos jogadores.
+
+### Funcionalidades
+
+- **React**: Utiliza React para construir a interface do usuário.
+- **TypeScript**: Garante segurança de tipos e uma melhor experiência de desenvolvimento.
+- **Vite**: Proporciona tempos de build rápidos e um ambiente de desenvolvimento suave.
+- **Animações**: Inclui animações para os movimentos dos jogadores usando CSS.
+
+### Começando
+
+1. Clone o repositório:
+
+   ```sh
+   git clone <repository-url>
+   ```
+
+2. Instale as dependências:
+
+   ```sh
+   npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+
+   ```sh
+   npm run dev
+   ```
+
+### Scripts
+
+- `dev`: Inicia o servidor de desenvolvimento.
+- `build`: Compila o projeto para produção.
+- `lint`: Executa o ESLint para verificar problemas de qualidade do código.
+- `preview`: Visualiza a build de produção.
+
+### Estrutura do Projeto
+
+- **src**: Contém o código-fonte.
+  - `components/`: Contém os componentes React.
+  - `styles/`: Contém arquivos CSS e SCSS para estilização.
+- **public**: Contém ativos estáticos.
+- **index.html**: O arquivo HTML principal.
+- **vite.config.ts**: Arquivo de configuração do Vite.
+- **tsconfig.json**: Arquivo de configuração do TypeScript.
