@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #fbf9ff;
+  border-radius: 10px;
+  border: 4px solid #9395d3;
+  width: 20rem;
+  height: 20rem;
+}
